@@ -1,0 +1,52 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#header {
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+#header .header-image {
+    background-image: url("../images/white-and-brown-cow-near-mountain-during-daytime-205001.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+#header .header-title {
+    /*background-color: rgba(255, 255, 255, 0.5);*/
+    display: inline-block;
+    padding: 10px;
+    z-index: 50;
+    
+}
+
+#header .header-title h1 {
+    font-size: 65px;
+    color: #f2b600;
+    text-align: center;
+    
+}
+
+#description {
+    margin: auto;
+    max-width: 900px;
+    color: #395b71;
+    font-size: 20px;
+}
+
+#header2{
+    font-size: 28px;
+    color: #f2b600;
+    text-align: center;
+}
+
+
