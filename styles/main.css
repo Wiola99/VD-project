@@ -49,4 +49,33 @@ body {
     text-align: center;
 }
 
+.languagesAgeGraph {
+    position: relative;
+}
 
+.languagesAgeGraph_legend {
+    position: absolute;
+    right: 50px;
+    top: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.languagesAgeGraph_color_red{
+    background: red;
+}
+.languagesAgeGraph_color_blue{
+    background: blue;
+}
+.languagesAgeGraph_color_green{
+    background: green;
+}
+.languagesAgeGraph_color_yellow{
+    background: yellow;
+}
+.languagesAgeGraph_color_brown{
+    background: brown;
+}
+.languagesAgeGraph_color_black{
+    background: black;
+}

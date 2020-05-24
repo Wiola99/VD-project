@@ -61,14 +61,51 @@
             </div>
         </div>
         <h2>How many languages does a Swiss person uses every day? (pie chart) </h2>
-        <h2>How many languages does a Swiss person speak regularly - according to group of age?(group chart)</h2>
+        <div class="languagesAge">
+            <h2>How many languages does a Swiss person speak regularly - according to group of age?(group chart)</h2>
+            <div class="languagesAgeGraph">
+                <table class="languagesAgeGraph_legend">
+                    <tr>
+                        <th>Color</th>
+                        <th>Category</th>
+                    </tr>
+                    <tr>
+                        <th class="languagesAgeGraph_color_red"></th>
+                        <th>15-24</th>
+                    </tr>
+                    <tr>
+                        <th class="languagesAgeGraph_color_blue"></th>
+                        <th>25-39</th>
+                    </tr>
+                    <tr>
+                        <th class="languagesAgeGraph_color_green"></th>
+                        <th>40-54</th>
+                    </tr>
+                    <tr>
+                        <th class="languagesAgeGraph_color_yellow"></th>
+                        <th>55-64</th>
+                    </tr>
+                    <tr>
+                        <th class="languagesAgeGraph_color_brown"></th>
+                        <th>65-74</th>
+                    </tr>
+                    <tr>
+                        <th class="languagesAgeGraph_color_black"></th>
+                        <th>70+</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
         <h2>Number of languages regularly used according to age,sex,education level(choose)</h2>
         <h2>Languages learned the most often (according to region) (a map)</h2>
         <h2>Why are languages learned? (according to each language) </h2>
 
         <script src="https://d3js.org/d3.v5.min.js"></script>
-        <script src="//d3js.org/topojson.v1.min.js"></script>
-        <script src="scripts/main.js"></script>
+        <script src="scripts/graphConfig.js"></script>
+        <script src="scripts/principalLanguages.js"></script>
+        <script src="scripts/languagesAge.js"></script>
+       
+        <!-- <script src="//d3js.org/topojson.v1.min.js"></script> -->
         <!-- <script src="scripts/map.js"></script> -->
 
     </body>
