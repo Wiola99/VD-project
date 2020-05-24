@@ -11,6 +11,8 @@ function principalLanguagesGraph() {
 
     function drawGraph(){
         d3.select('#languageGraph').remove();
+        
+        const filteredData = dataPrincipalLanguages.filter(d=> d.language === currentLanguage);
 
         const svg = d3.select('.principalLanguages')
             .append('svg')
@@ -28,19 +30,18 @@ function principalLanguagesGraph() {
 
         // Vertical scale
         scaleY = d3.scaleLinear()
-            .domain([100, 0])
+            .domain([70, 0])
             .range([margin.top, height-margin.bottom]);
         
         svg.append('g')
             .attr('transform', `translate(60, 0)`)
-            .call(d3.axisLeft(scaleY))
+            .call(d3.axisLeft(scaleY).tickFormat((d,i) => d+'%'))
             
         svg.append('g')
             .attr('transform', `translate(${margin.left}, ${height - margin.bottom})`)
             .call(d3.axisBottom(scaleX));
 
 
-        const filteredData = dataPrincipalLanguages.filter(d=> d.language === currentLanguage);
 
         //create color scale
         colorScale = d3.scaleSequential(d3.interpolateRdYlGn)
