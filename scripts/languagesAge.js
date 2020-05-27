@@ -50,18 +50,19 @@ function languagesAgeGraph() {
                     return x;
                 })
             .attr('y',  d => scaleY(d.pourcentage))
+            .style("opacity", 0.6)
             .style('fill', d => {
-                let color = 'red'
+                let color = '#90a8c2'
                 if(d.category === '25-39') {
-                    color = 'blue'
+                    color = '#fa9c00'
                 } else if (d.category === '40-54') {
                     color = 'green'
                 } else if (d.category === '55-64') {
-                    color = 'yellow'
+                    color = '#395b71'
                 } else if (d.category === '65-74') {
-                    color = 'brown'
+                    color = '#325b33'
                 } else if (d.category === '77<') {
-                    color = 'black'
+                    color = '#f2b600'
                 }
                 return color;
             });

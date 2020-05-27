@@ -55,11 +55,42 @@
                         <option value='GER'>German</option>
                         <option value='IT'>Italian</option>
                         <option value='RO'>Romansh</option>
-                        <option value='OTHER' >Otherlanguages</option>
+                        <option value='OTHER' >Other languages</option>
                     </select>
                 </div>
             </div>
-            <h2>How many languages does a Swiss person uses every day? (pie chart) </h2>
+            <div class='languagesEveryDay'>          
+                <h2>How many languages does a Swiss person uses every day? (pie chart) </h2>
+                <div class="pieChart">
+                    <table class="languagesEveryDay_legend">
+                        <tr>
+                            <th>Color</th>
+                            <th>Languages spoken</th>
+                        </tr>
+                        <tr>
+                            <th class="languagesEveryDay_color_yellow"></th>
+                            <th>1 language</th>
+                        </tr>
+                        <tr>
+                            <th class="languagesEveryDay_color_lightblue"></th>
+                            <th>2 languages</th>
+                        </tr>
+                        <tr>
+                            <th class="languagesEveryDay_color_blue"></th>
+                            <th>3 languages</th>
+                        </tr>
+                        <tr>
+                            <th class="languagesEveryDay_color_green"></th>
+                            <th>4 languages</th>
+                        </tr>
+                        <tr>
+                            <th class="languagesEveryDay_color_sun"></th>
+                            <th>5 languages</th>
+                        </tr>
+                        
+                    </table>
+                </div>
+            </div>
             <div class="languagesAge">
                 <h2>How many languages does a Swiss person speak regularly - according to group of age?(group chart)</h2>
                 <div class="languagesAgeGraph">
@@ -69,11 +100,11 @@
                             <th>Category</th>
                         </tr>
                         <tr>
-                            <th class="languagesAgeGraph_color_red"></th>
+                            <th class="languagesAgeGraph_color_lightblue"></th>
                             <th>15-24</th>
                         </tr>
                         <tr>
-                            <th class="languagesAgeGraph_color_blue"></th>
+                            <th class="languagesAgeGraph_color_yellow"></th>
                             <th>25-39</th>
                         </tr>
                         <tr>
@@ -81,15 +112,15 @@
                             <th>40-54</th>
                         </tr>
                         <tr>
-                            <th class="languagesAgeGraph_color_yellow"></th>
+                            <th class="languagesAgeGraph_color_blue"></th>
                             <th>55-64</th>
                         </tr>
                         <tr>
-                            <th class="languagesAgeGraph_color_brown"></th>
+                            <th class="languagesAgeGraph_color_green"></th>
                             <th>65-74</th>
                         </tr>
                         <tr>
-                            <th class="languagesAgeGraph_color_black"></th>
+                            <th class="languagesAgeGraph_color_sun"></th>
                             <th>70+</th>
                         </tr>
                     </table>
@@ -97,14 +128,32 @@
             </div>
             <h2>Number of languages regularly used according to age,sex,education level(choose)</h2>
             <h2>Languages learned the most often (according to region) (a map)</h2>
-            <h2>Why are languages learned? (according to each language) </h2>
+            
+            <div class="learningReasons">
+                <h2>Why are languages learned? (according to each language) </h2>
+                <p>*a</p>
+                <div>
+                    <label for='language'>Language</label>
+                    <select id='language'>
+                        <option value='FR' selected>French</option>
+                        <option value='DE'>German</option>
+                        <option value='IT'>Italian</option>
+                        <option value='EN'>English</option>
+                        <option value='ES' >Spanish</option>
+                    </select>
+                </div>
+            </div>
         </div>
         
 
         <script src="https://d3js.org/d3.v5.min.js"></script>
         <script src="scripts/graphConfig.js"></script>
         <script src="scripts/principalLanguages.js"></script>
+        
         <script src="scripts/languagesAge.js"></script>
+        <script src="scripts/pieChart.js"></script>
+        <script src="scripts/reasons.js"></script>
+
        
         <!-- <script src="//d3js.org/topojson.v1.min.js"></script> -->
         <!-- <script src="scripts/map.js"></script> -->

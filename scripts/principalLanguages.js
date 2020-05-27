@@ -44,7 +44,7 @@ function principalLanguagesGraph() {
 
 
         //create color scale
-        colorScale = d3.scaleSequential(d3.interpolateRdYlGn)
+        colorScale = d3.scaleSequential(d3.interpolateBrBG)
             .domain([0, d3.max(filteredData, d=> d.value)]);
 
         //create bars 

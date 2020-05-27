@@ -64,26 +64,75 @@ body {
     padding: 0;
 }
 
-.languagesAgeGraph_color_red{
-    background: red;
+.languagesAgeGraph_color_lightblue{
+    background: #90a8c2;
+    opacity: 0.5;
 }
-.languagesAgeGraph_color_blue{
-    background: blue;
+.languagesAgeGraph_color_yellow{
+    background: #fa9c00;
+    opacity: 0.5;
+
 }
 .languagesAgeGraph_color_green{
     background: green;
+    opacity: 0.5;
 }
-.languagesAgeGraph_color_yellow{
-    background: yellow;
+.languagesAgeGraph_color_blue{
+    background: #395b71;
+    opacity: 0.5;
 }
-.languagesAgeGraph_color_brown{
-    background: brown;
+.languagesAgeGraph_color_green{
+    background: #325b33;
+    opacity: 0.5;
+    
 }
-.languagesAgeGraph_color_black{
-    background: black;
+.languagesAgeGraph_color_sun{
+    background: #f2b600;
+    opacity: 0.5;
+    
 }
 
 svg {
     display: block;
     margin: auto;
 }
+
+
+.pieChart {
+    position: relative;
+}
+
+.languagesEveryDay_legend {
+    position: absolute;
+    right: 50px;
+    top: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.languagesEveryDay_color_lightblue{
+    background: #90a8c2;
+    opacity: 0.5;
+}
+.languagesEveryDay_color_yellow{
+    background: #fa9c00;
+    opacity: 0.5;
+
+}
+
+.languagesEveryDay_color_blue{
+    background: #395b71;
+    opacity: 0.5;
+}
+.languagesEveryDay_color_green{
+    background: #325b33;
+    opacity: 0.5;
+    
+}
+.languagesEveryDay_color_sun{
+    background: #f2b600;
+    opacity: 0.5;
+    
+}
+
+
