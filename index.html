@@ -126,7 +126,26 @@
                     </table>
                 </div>
             </div>
-            <h2>Number of languages regularly used according to age,sex,education level(choose)</h2>
+            
+            
+            <div class="languagesEduWork">
+                <h2>Number of languages regularly used according to sex,education level(choose) </h2>
+                 <div>
+                    <label for='eduWork'>Language</label>
+                    <select id='eduWork'>
+                        
+                        <option value='PS' selected>Primary school</option>
+                        <option value='SS'>Secondary school</option>
+                        <option value='HE'>Higher education</option>
+                        <option value='AW'>Active and working</option>
+                        <option value='AU' >Active and unemployed</option>
+                        <option value='NA' >Non-active</option>
+                        
+
+                    </select>
+                </div>
+            </div>
+
             <h2>Foreign languages learned the most often </h2>
             <div class='foreignLanguagesTotal'>
                 <table class="languagesForeign_legend">
@@ -203,6 +222,7 @@
         
         <script src="scripts/languagesAge.js"></script>
         <script src="scripts/pieChart.js"></script>
+        <script src="scripts/languagesEduWork.js"></script>
         <script src="scripts/foreignLanguagesTotal.js"></script>
         <script src="scripts/reasons.js"></script>
 
