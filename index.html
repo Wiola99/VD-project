@@ -60,7 +60,7 @@
                 </div>
             </div>
             <div class='languagesEveryDay'>          
-                <h2>How many languages does a Swiss person uses every day? (pie chart) </h2>
+                <h2>How many languages does a Swiss person uses every day?</h2>
                 <div class="pieChart">
                     <table class="languagesEveryDay_legend">
                         <tr>
@@ -85,14 +85,14 @@
                         </tr>
                         <tr>
                             <th class="languagesEveryDay_color_sun"></th>
-                            <th>5 languages</th>
+                            <th>5+ languages</th>
                         </tr>
                         
                     </table>
                 </div>
             </div>
             <div class="languagesAge">
-                <h2>How many languages does a Swiss person speak regularly - according to group of age?(group chart)</h2>
+                <h2>How many languages does a Swiss person speak regularly - according to group of age?</h2>
                 <div class="languagesAgeGraph">
                     <table class="languagesAgeGraph_legend">
                         <tr>
@@ -127,19 +127,70 @@
                 </div>
             </div>
             <h2>Number of languages regularly used according to age,sex,education level(choose)</h2>
+            <h2>Foreign languages learned the most often </h2>
+            <div class='foreignLanguagesTotal'>
+                <table class="languagesForeign_legend">
+                    <tr>
+                        <th>Color</th>
+                        <th>Languages</th>
+                    </tr>
+                    <tr>
+                        <th class="languagesForeign_legend_color_182f58"></th>
+                        <th>English</th>
+                    </tr>
+                    <tr>
+                        <th class="languagesForeign_legend_color_543b74"></th>
+                        <th>French</th>
+                    </tr>
+                    <tr>
+                        <th class="languagesForeign_legend_color_92407e"></th>
+                        <th>German</th>
+                    </tr>
+                    <tr>
+                        <th class="languagesForeign_legend_color_cc4975"></th>
+                        <th>Italian</th>
+                    </tr>
+                    <tr>
+                        <th class="languagesForeign_legend_color_f4635e"></th>
+                        <th>Spanish</th>
+                    </tr>
+                    <tr>
+                        <th class="languagesForeign_legend_color_ff8d3a"></th>
+                        <th>Swiss-German</th>
+                    </tr>
+                    <tr>
+                        <th class="languagesForeign_legend_color_ffc009"></th>
+                        <th>Portugese</th>
+                    </tr>
+                    <tr>
+                        <th class="languagesForeign_legend_color_6fb634"></th>
+                        <th>Russian</th>
+                    </tr>
+                    <tr>
+                        <th class="languagesForeign_legend_color_5abba4"></th>
+                        <th>Japanese</th>
+                    </tr>
+                    <tr>
+                        <th class="languagesForeign_legend_color_006d48"></th>
+                        <th>Arabic</th>
+                    </tr>
+                    
+                </table>
+
+            </div>
             <h2>Languages learned the most often (according to region) (a map)</h2>
             
             <div class="learningReasons">
-                <h2>Why are languages learned? (according to each language) </h2>
-                <p>*a</p>
-                <div>
-                    <label for='language'>Language</label>
-                    <select id='language'>
+                <h2>Why are languages learned? </h2>
+                 <div>
+                    <label for='reasonForLaanguage'>Language</label>
+                    <select id='reasonForLaanguage'>
                         <option value='FR' selected>French</option>
                         <option value='DE'>German</option>
                         <option value='IT'>Italian</option>
                         <option value='EN'>English</option>
                         <option value='ES' >Spanish</option>
+                        <option value='TOTAL' >Total</option>
                     </select>
                 </div>
             </div>
@@ -152,7 +203,9 @@
         
         <script src="scripts/languagesAge.js"></script>
         <script src="scripts/pieChart.js"></script>
+        <script src="scripts/foreignLanguagesTotal.js"></script>
         <script src="scripts/reasons.js"></script>
+
 
        
         <!-- <script src="//d3js.org/topojson.v1.min.js"></script> -->

@@ -38,7 +38,7 @@ body {
 
 .wrapper {
     margin: auto;
-    padding: 0 30px;
+    padding: 30px;
     max-width: 900px;
 }
 #description {
@@ -135,4 +135,51 @@ svg {
     
 }
 
+.foreignLanguagesTotal {
+    position: relative;
+}
 
+.languagesForeign_legend {
+    position: absolute;
+    right: 30px;
+    top: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.languagesForeign_legend_color_182f58{
+    background: #182f58;
+    
+}
+.languagesForeign_legend_color_543b74{
+    background: #543b74;
+}
+
+.languagesForeign_legend_color_92407e{
+    background: #92407e;
+}
+.languagesForeign_legend_color_cc4975{
+    background: #cc4975;    
+}
+.languagesForeign_legend_color_f4635e{
+    background: #f4635e;    
+}
+.languagesForeign_legend_color_ff8d3a{
+    background: #ff8d3a;    
+}
+
+.languagesForeign_legend_color_ffc009{
+    background: #ffc009;    
+}
+
+.languagesForeign_legend_color_6fb634{
+    background: #6fb634;    
+}
+
+.languagesForeign_legend_color_5abba4{
+    background: #5abba4;    
+}
+
+.languagesForeign_legend_color_006d48{
+    background: #006d48;    
+}
