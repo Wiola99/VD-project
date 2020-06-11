@@ -41,10 +41,8 @@ body {
     padding: 30px;
     max-width: 900px;
 }
-#description {
-    color: #494d4c;
-    font-size: 20px;
-}
+
+
 
 #header2{
     font-size: 28px;
@@ -60,6 +58,7 @@ body {
 }
 .paragraph{
     color:#494d4c ;
+    font-size: 17px;
 }
 
 .divider
