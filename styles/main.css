@@ -1,5 +1,5 @@
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family:  'Source Sans Pro', sans-serif;
 }
 
 #header {
@@ -110,29 +110,23 @@ body {
 
 .languagesAgeGraph_color_lightblue{
     background: #90a8c2;
-    opacity: 0.5;
 }
 .languagesAgeGraph_color_yellow{
     background: #fa9c00;
-    opacity: 0.5;
 
 }
 .languagesAgeGraph_color_green{
     background: green;
-    opacity: 0.5;
 }
 .languagesAgeGraph_color_blue{
     background: #395b71;
-    opacity: 0.5;
 }
 .languagesAgeGraph_color_green{
     background: #325b33;
-    opacity: 0.5;
     
 }
 .languagesAgeGraph_color_sun{
-    background: #f2b600;
-    opacity: 0.5;
+    background: #f3b703;
     
 }
 
@@ -156,26 +150,21 @@ svg {
 
 .languagesEveryDay_color_lightblue{
     background: #90a8c2;
-    opacity: 0.5;
 }
 .languagesEveryDay_color_yellow{
     background: #fa9c00;
-    opacity: 0.5;
 
 }
 
 .languagesEveryDay_color_blue{
     background: #395b71;
-    opacity: 0.5;
 }
 .languagesEveryDay_color_green{
     background: #325b33;
-    opacity: 0.5;
     
 }
 .languagesEveryDay_color_sun{
-    background: #f2b600;
-    opacity: 0.5;
+    background: #ef6001;
     
 }
 
@@ -226,4 +215,8 @@ svg {
 
 .languagesForeign_legend_color_006d48{
     background: #006d48;    
+}
+
+svg {
+    overflow: visible;
 }

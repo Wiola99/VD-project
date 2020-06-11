@@ -23,7 +23,7 @@ function languagesEduWorkGraph() {
             
         // Horizontal scale
         scaleX = d3.scaleBand()
-            .domain(['1', '2', '3', '4', '5'])
+            .domain([1, 2, 3, 4, 5])
             .range([margin.left, width - margin.right])
             .padding(0.3)
             .round(true) //arrondir les valeurs a pixel pres
@@ -44,8 +44,8 @@ function languagesEduWorkGraph() {
 
 
         //create color scale
-        colorScale = d3.scaleSequential(d3.interpolateRainbow)
-            .domain([0, d3.max(filteredData, d=> d.value)]);
+        colorScale = d3.scaleSequential(d3.interpolateInferno)
+            .domain([0, 70]);
 
         //create bars 
         Bars = svg.append('g')

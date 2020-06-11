@@ -50,7 +50,7 @@ function languagesAgeGraph() {
                     return x;
                 })
             .attr('y',  d => scaleY(d.pourcentage))
-            .style("opacity", 0.6)
+            
             .style('fill', d => {
                 let color = '#90a8c2'
                 if(d.category === '25-39') {

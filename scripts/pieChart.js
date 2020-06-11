@@ -26,7 +26,7 @@ function pieChart() {
         // Set the color scale
         var color = d3.scaleOrdinal()
           .domain(dataEverydayLanguages)
-          .range(["#f2b600","#fa9c00","#90a8c2", "#395b71", "#325b33",  ])
+          .range(["#ef6001","#fa9c00","#90a8c2", "#395b71", "#325b33",  ])
         
         // Calculate fields for the pie chart
         var pie = d3.pie()
@@ -51,7 +51,6 @@ function pieChart() {
           .attr('fill', function(d){ return(color(d.data.percent)) })
           .attr("stroke", "white")
           .style("stroke-width", "4px")
-          .style("opacity", 0.5) //dim the colors
 
         // Append text
         svg
