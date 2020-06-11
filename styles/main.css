@@ -42,7 +42,7 @@ body {
     max-width: 900px;
 }
 #description {
-    color: #395b71;
+    color: #494d4c;
     font-size: 20px;
 }
 
@@ -50,6 +50,50 @@ body {
     font-size: 28px;
     color: #f2b600;
     text-align: center;
+}
+.title{
+    color: #494d4c;
+    font-size: 33px;
+}
+.remark{
+    color: #8c9193;
+}
+.paragraph{
+    color:#494d4c ;
+}
+
+.divider
+{
+	position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+	height: 1px;
+}
+
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+}
+.div-arrow-down:after
+{
+	content: "";
+	position: absolute;
+	z-index: 1;
+	top: -7px;
+	left: calc(50% - 7px);
+	width: 14px;
+	height: 14px;
+	transform: rotate(45deg);
+	background-color: white;
+	border-bottom: 1px solid rgb(48,49,51);
+	border-right: 1px solid rgb(48,49,51);
 }
 
 .languagesAgeGraph {
