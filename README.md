@@ -2,6 +2,7 @@
  
 
 This project developped in the context of Isaac Pante's and Loïc Cattani's "Visualisation de données" class (UNIL)
+The outcome of the project can be viewed here: [https://wiola99.github.io/VD-project/]
 
 # Project description
 
