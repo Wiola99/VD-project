@@ -1,4 +1,4 @@
-# Languages in Switzerland data visualization. 
+# Languages in Switzerland - data visualization. 
  
 
 This project developped in the context of Isaac Pante's and Loïc Cattani's "Visualisation de données" class (UNIL)
